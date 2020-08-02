@@ -1,0 +1,716 @@
+body {
+    margin:0;
+}
+.container {
+    width:1530px;
+    margin: 0;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height:64px;
+}
+.row .header-logo {
+    width: 200px;
+    height:auto;
+    margin-right: 50px;
+}
+.header-nav {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.header-nav a {
+    margin: auto 35px auto 35px; 
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+}
+.header-nav a:hover,a:active {
+    background-color: darkcyan;
+    padding: 18px 15px;
+}
+/* header section end */
+
+/* title section start */
+.slide1 {
+    position: relative;
+    height: 75vh;
+}
+.slide1 img {
+    width: 100%;
+    height:75vh;
+    z-index:0;
+}
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 75vh;
+    background-color:black;
+    opacity: 0.6;
+    z-index:1;
+}
+.imagetxt {
+    position:absolute;
+    top:35%;
+    left:32%;
+    text-align: center;
+    color:white;
+    z-index:2;
+
+}
+.imagetxt h3 {
+    font-size: 40px;
+}
+.imagetxt p {
+    font-size: 20px;
+}
+
+/* title ended */
+
+/* features are started */
+
+.features {
+    border: 1px solid rgb(231, 157, 46);
+}
+
+.features .frame {
+    flex: 0 0 24.82%;
+    height: 310px;
+    position: relative;
+    border: 1.3px solid #7966a3;
+}
+
+.features .frame .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.features .frame .face1{
+    background-color: #60479a;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+
+.features .frame .face1 img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.features .frame .face1 h3 {
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.features .frame .face1 p {
+    color: white;
+    font-size: 20px;    
+}
+
+.face1:hover   {
+    transform: translateY(-100%) rotateX(90deg);
+    transition: 1s;
+}
+
+.frame .face1:hover {
+    background-color: rgb(230, 126, 78);
+}
+
+.frame:hover {
+    background-color: antiquewhite;
+}
+
+.face .face2 {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform-origin: top;
+}
+
+.face2 p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.frame .face2:hover {
+    transform: translateY(-100%) rotateX(90deg);
+    transition: 10s;
+}
+.frame .face2:hover {
+    background-color: rgb(230, 126, 78);
+}
+
+
+/* features ended */
+
+/* About us has started */
+
+.about-us {
+    margin-top: 320px;
+}
+
+.about-us h2 {
+    display: inline-block;
+    color: #4a2b92;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom:3px solid red;
+}
+
+.heading {
+    text-align: center;
+}
+.about-us h3 {
+    text-align: center;
+    font-size: 28px;
+}
+.para {
+    width:1300px;
+    margin:auto;
+}
+
+.about-us p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.about-us img {
+    width: 1250px;
+    height: 550px;
+    margin: 0 140px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+/* Aboout  us ended */
+
+/* Amenities section started */
+.heading2 {
+    text-align: center;
+}
+.heading2 h2 {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: #4a2b92;
+    padding-bottom: 8px;
+    border-bottom: 3px solid red;
+}
+.heading2 h3 {
+    margin-top: -27px;
+    font-size: 28px;
+    color
+}
+
+.para1 {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+/* Our Amenties ended */
+
+/* Slides started */
+
+.container1 {
+    width:1280px;
+    margin:auto;
+    background-color: white;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 .frame1 {
+    flex: 0 0 28%;
+    height: 280px;
+    position: relative;
+    border: 1.3px solid grey;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.frame1 .face3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.frame1 .face3 img {
+    width: 120px;
+    margin-top: 30px;
+}
+.frame1 .face3 h2 {
+    margin-top: 15px;
+    color: #4a2b92;
+}
+
+.frame1 .face4 {
+    
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+
+.face4:hover   {
+    transform: rotateY(270deg);
+    transition: 1s;
+}
+.frame1:hover {
+    background-color: rgb(134, 156, 256);
+}
+.face5 {
+    background-color: lightsteelblue;
+    justify-content: center;
+    align-items: center;
+}
+.face5 p {
+    text-align: center;
+    margin: 60px auto;
+}
+
+
+/* Amenities ended */
+.container .master-img {
+    position: relative;
+    width: 1537px;
+    height: 1100px;
+    margin-top: 25px;
+}
+.container .row1 .master-img .master-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+.row1 .c1 {
+    width: 650px;
+    height: 750px;
+}
+.c1 .img1 {
+    width: 100%;
+}
+.c1 .text-area {
+    position: absolute;
+    top: 220px;
+    left:205px;
+    color: white;
+    z-index: 2;
+    font-size: 27px;
+}
+.c1 .text-area1 {
+    position: absolute;
+    top: 785px;
+    left: 205px;
+    color: white;
+    z-index: 2;
+    font-size: 27px;
+}
+
+.c1 .img1 img {
+    width: 112%;
+    height: 548px;
+}
+
+.row1 .c2 {
+    width: 800px;
+    height: 1098px;
+    margin-left: 80px;
+}
+
+.c2 .p-img {
+    width: 100%;
+}
+.c2 .text-area2 {
+    position: absolute;
+    top: 485px;
+    left:1000px;
+    color: white;
+    z-index: 2;
+    font-size: 27px;
+}
+.c2 .p-img img {
+    width:100%;
+    height: 1100px;
+}
+
+/* Oppurtunities section ended */
+
+/* What we offer section started */
+.heading3 {
+    text-align: center;
+}
+.heading3 h2 {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: darkviolet;
+    padding-bottom: 8px;
+    border-bottom: 3px solid orangered;
+}
+.heading3 p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.container1 .row1 .frame2 {
+    flex: 0 0 30%;
+    position: relative;
+    border: 1.1px solid grey;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.container1 .row1 .frame2 .img2 {
+    width:100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.frame2 p {
+    margin-top: 4px;
+    margin-bottom: -4px;
+    text-align: center;
+    font-size:20px;
+    color: darkviolet;
+}
+.frame2 .para2 {
+    margin: 20px auto;
+}
+.frame2 .para2 p {
+    font-size: 16px;
+    color: darkolivegreen;
+}
+
+.container1 .row1 .frame3 {
+    flex: 0 0 70%;
+    position: relative;
+    border: 1.1px solid grey;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.container1 .row1 .frame3 .img3 {
+    width:100%;
+    border-radius: 5px;
+}
+.frame3 p {
+    text-align: center;
+    color:darkviolet;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-size: 21px;
+}
+
+.frame3 .para3 {
+    margin: 20px auto;
+}
+
+
+.frame3 .para3 p {
+    font-size: 16px;
+    color: darkolivegreen;
+}
+
+/* What we offer part ended */
+
+/* Clients part started */
+.container2 {   
+    width:1200px;
+    margin:auto;
+}
+.heading4 {
+    text-align: center;
+}
+.heading4 h2 {
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    color: darkviolet;
+    padding-bottom: 8px;
+    border-bottom: 3px solid orangered;
+}
+.row1 .frame4 {
+    flex: 0 0 28%;
+    width: 28%;
+    height: 130px;
+    background-color: #f9f9f9;
+    margin:20px auto;
+}
+
+
+.row1 .frame4 .img4 {
+    text-align: center;
+}
+.row1 .frame4 .img4 img {
+    padding-top: 20px;
+    width: 160px;
+    height:75px;
+}
+
+/* Clients part ended */
+
+/* Testimonals started */
+.container3 {
+    width:1280px;
+    margin:auto auto 35px auto;
+}
+.container3 .row1 {
+    flex: 0 0 85%;
+    background-color: #f9f9f9;
+    justify-content: center;
+}
+.container3 .row1 .heading5 {
+    text-align: center;
+}
+.container3 .row1 .heading5 h2 {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: darkviolet;
+    border-bottom: 3px solid orangered;
+}
+.container3 .row1 .heading5 p {
+    margin-top: -10px;
+    font-size: 25px;
+}
+.container3 .row1 .slidess {
+    flex: 0 0 97%;
+    height: 90px;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 2px;
+}
+
+/* Testimonals ended */
+
+/* Free demo started */
+
+.slide2 {
+    position: relative;
+    height: 75vh;
+    margin-bottom: 25px;
+}
+.slide2 img {
+    width: 100%;
+    height:75vh;
+    z-index:0;
+}
+.overlay1 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 75vh;
+    background-color:black;
+    opacity: 0.5;
+    z-index:1;
+}
+.imagetxt1 {
+    position:absolute;
+    top:32%;
+    left:37%;
+    text-align: center;
+    color:white;
+    z-index:2;
+
+}
+.imagetxt1 h2 {
+    font-size: 40px;
+}
+.imagetxt1 a {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, darkviolet,orange, crimson);
+    text-decoration: none;
+}
+.imagetxt1 a:hover {
+    background-image: linear-gradient(to left, darkviolet,orange, crimson);
+}
+.portrait {
+    width:1250px;
+    margin: auto;
+}
+.portrait .frame5 {
+    position: relative;
+} 
+
+.portrait .frame5 .img5 {
+    width: 40%;
+    margin: 50px;
+}
+.portrait .frame5 .img5 img {
+    width: 100%;
+    height: 620px;
+}
+
+.portrait .frame5 .text-area3 {
+    position: absolute;
+    left: 700px;
+    top: 0;
+    width: 35%;
+    height: 610px;
+}
+/* Protrait section Ended */
+
+/* Last section Started */
+footer {
+    width: 1537px;
+    margin:0;
+    background-color: rgb(30,28,59);
+    height: 450px;
+}
+.footer .row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .row2 .sec1 {
+    flex: 0 0 25%;
+    width:25%;
+    justify-content: left;
+    margin:40px;
+    position: absolute;
+
+}
+footer .row2 .sec1 {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding-right: 40px;
+    border-right:3px solid white;
+}
+
+footer .row2 .sec1 .image {
+    width:50%;
+}
+footer .row2 .sec1 .image img {
+    width:100px;
+    height: 38px;
+    margin-top: 30px;
+}
+footer .row2 .sec2 {
+    position: absolute;
+    width: 30%;
+    height: 376px;
+    color: white;
+    margin-top: 40px;
+    left: 468px;
+    text-align: center;
+    border-right:3px solid white;
+}
+footer .row2 .sec2 .headiii {
+    font-size: 19px;
+    display: inline-block;
+    padding-bottom: -40px;
+}
+footer .row2 .sec2 .linksec a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+footer .row2 .sec2 .icons {
+    margin-top: 40px;
+}
+footer .row2 .sec2 .icons a {
+    margin: 8px;
+}
+
+footer .row2 .sec3 {
+    border:1px solid lightgray;
+    margin-top: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 975px;
+    right:50px;
+    padding: 10px 15px;
+}
+footer .row2 .sec3 form {
+    margin-bottom: 20px;
+}
+footer .row2 .sec3 form [type=text] {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer .row2 .sec3 form [type=text]:focus {
+    box-shadow:0 0 5px aqua;
+    outline: none;
+}
+footer .row2 .sec3 form [type=email] {
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+footer .row2 .sec3 form [type=email]:focus {
+    box-shadow:0 0 5px aqua;
+    outline: none;
+}
+footer .row2 .sec3 form [type=phoneno] {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+footer .row2 .sec3 form [type=phoneno]:focus {
+    box-shadow:0 0 5px aqua;
+    outline: none;
+}
+footer .row2 .sec3 form #cho {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+footer .row2 .sec3 form #cho:focus {
+    box-shadow:0 0 5px aqua;
+    outline: none;
+}
+footer .row2 .sec3 form textarea {
+    resize: none;
+    border: none;
+    border-radius: 5px;
+}
+footer .row2 .sec3 form textarea:focus {
+    box-shadow:0 0 5px aqua;
+    outline: none;
+}
+footer .row2 .sec3 form a {
+    display: block;
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
