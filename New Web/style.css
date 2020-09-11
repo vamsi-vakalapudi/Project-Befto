@@ -1,5 +1,6 @@
 body {
     margin:0;
+    overflow-x: hidden;
 }
 .container {
     width:1530px;
@@ -209,7 +210,6 @@ body {
 .heading2 h3 {
     margin-top: -27px;
     font-size: 28px;
-    color
 }
 
 .para1 {
@@ -650,7 +650,7 @@ footer .row2 .sec3 form {
 }
 footer .row2 .sec3 form [type=text] {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -662,7 +662,7 @@ footer .row2 .sec3 form [type=text]:focus {
     outline: none;
 }
 footer .row2 .sec3 form [type=email] {
-    display: inline-block;
+    display: block;
     float: right;
     padding: 10px;
     border: none;
@@ -684,8 +684,8 @@ footer .row2 .sec3 form [type=phoneno]:focus {
     outline: none;
 }
 footer .row2 .sec3 form #cho {
-    display: inline-block;
-    width: 40%;
+    display: block;
+    width: 50%;
     float: right;
     padding: 10px;
     border: none;
@@ -698,6 +698,7 @@ footer .row2 .sec3 form #cho:focus {
 footer .row2 .sec3 form textarea {
     resize: none;
     border: none;
+    width: 460px;
     border-radius: 5px;
 }
 footer .row2 .sec3 form textarea:focus {
